@@ -1,0 +1,59 @@
+
+.containerDiv{
+	/*border-left: 1px solid rgba(0, 0, 0, .1);*/
+}
+.SelectionLabelDiv{
+	width: 100%;
+	font-size: 8pt;
+	text-align: left;
+	margin-bottom: 5px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.SelectionLabelDiv span{
+	margin-left: 20px;
+}
+.select-style {
+    width: calc(100% - 45px);
+    border: 1px solid #ccc;
+    /*width: calc(100% - 40px);*/
+    /*width: 100%;*/
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 90% 50%;
+    float: left;
+    /*background-color: green;*/
+}
+
+.select-style select {
+    font-size: 13px;
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+.imageContainer{
+    width: 40px;
+    height: 40px;
+    float: right;
+    /*background-color: blue;*/
+}
+
+.ajaxDiv{
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.select-style select:focus {
+    outline: none;
+    /*background-color: red;*/
+}
+
+.select-style option{
+    /*background-color: red;*/
+}

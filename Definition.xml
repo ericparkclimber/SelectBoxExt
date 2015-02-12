@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="SelectBoxExt" Description="Pass values to a web service" Type="object" PageHeight="10" >
+  <!-- <Initiate Name="Chart.Dimension.0.Field" value="LineDescription" /> -->
+  <Text Label="WebService URL" Type="text" Initial="" Expression="http://localhost:8000"/>
+  <Text Label="ConnectionName" Type="text" Initial="" Expression="QlikDBConnection"/>
+  <Text Label="Table Name" Type="text" Initial="" Expression="testtable3"/>
+  <Text Label="Audit Table Name" Type="text" Initial="" Expression="testaudit"/>
+  <Text Label="CSS File Name" Type="text" Initial="" Expression="TungstenExt.CSS"/>
+  <Text Label="Drop Down Values" Type="text" Initial="" Expression=",,Reviewed,R,Work In Progress,W,Review Later,L"/>
+  <Text Label="Label" Type="text" Initial="" Expression="Status"/>
+  <Text Label="API Key" Type="text" Initial="" Expression="7E4A43DB-FA57-487E-A945-A8682A98E0A0" />
+  <Text Label="OSUSER" Type="text" Initial="" Expression="=OSUser()"/>
+
+
+
+  <Dimension Label="Dimensions" DropTarget="Dimensions" Require="true" Multiple="true"  />
+  <Measurement Multiple="true" />
+
+  <Initiate Name="Caption.Text" Value="SelectBoxWBExt" />
+  <Initiate Name="Caption.Font.Italic" Value="1" />
+  <Initiate Name="Layout.Border.Use" Value="0" />
+  <Initiate Name="Chart.BgColor.ColorHex" Value="#FFFFE0" />
+  <PropertiesPage Version="11" File="PropFullDynamic.qvpp" />
+</ExtensionObject>
